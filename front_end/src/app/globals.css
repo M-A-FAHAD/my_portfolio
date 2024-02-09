@@ -2,32 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-shapes {
+    background-size: 5px 5px;
+    background-image: conic-gradient(
+      #ffffff00 90deg,
+      #ffffff00 90deg 180deg,
+      #122e50 180deg 270deg,
+      #ffffff00 270deg
+    );
+    /* background-image: linear-gradient(to right, #617ca2 50%, #28487d 50%);
+  background-size: 10px 10px; */
+  }
+.anime {
+   animation: spin 5s linear infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.bg-custom-color{
+  background-color: #0B1120;
 }
