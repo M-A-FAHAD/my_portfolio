@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="">
       {/* //This is header section */}
-      <section className="pt-16 pb-16 bg-custom-color flex flex-col items-center">
+      <section >
         <Header_index />
       </section>
 

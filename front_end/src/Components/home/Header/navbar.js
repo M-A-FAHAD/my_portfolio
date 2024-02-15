@@ -1,11 +1,11 @@
 export default function Navbar() {
     return (
         <div className="h-20 pt-10 ">
-            <ul className="text-gray-100 flex ">
-                <li className="rounded-full border pr-2 pl-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Home</code></li>
-                <li className="rounded-full border pr-2 pl-2 ml-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Projects</code></li>
-                <li className="rounded-full border pr-2 pl-2 ml-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Blogue</code></li>
-                <li className="rounded-full border pl-2 pr-2 ml-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Contact</code></li>
+            <ul className="text-green-500 flex">
+                <li className="hover:rotate-[360deg] rounded-full border pr-2 pl-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Home</code></li>
+                <li className="hover:rotate-[360deg] rounded-full border pr-2 pl-2 ml-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Projects</code></li>
+                <li className="hover:rotate-[360deg] rounded-full border pr-2 pl-2 ml-2 mr-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Blogue</code></li>
+                <li className="hover:rotate-[360deg] rounded-full border pl-2 pr-2 ml-2 cursor-pointer hover:scale-y-125 ease-in-out duration-300"><code>Contact</code></li>
             </ul>
         </div>
     )
