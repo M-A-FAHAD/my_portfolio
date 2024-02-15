@@ -1,6 +1,7 @@
-import Footer_index from "@/Components/home/Footer/footer_index";
-import Header_index from "@/Components/home/Header/header_index";
-import Body_index from "@/Components/home/body/body_index";
+import Footer_index from "./Components/home/Footer/footer_index";
+import Header_index from "./Components/home/Header/header_index";
+import Body_index from "./Components/home/body/body_index";
+
 
 export default function Home() {
   return (
